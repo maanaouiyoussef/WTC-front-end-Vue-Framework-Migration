@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #third-global-cards-container {
   position: relative;
   width: 1000px;

@@ -40,7 +40,7 @@ export default {
 #first-global-cards-container {
   position: relative;
   width: 1000px;
-  height: 52%;
+  height: 95%;
   z-index: 12;
 }
 /* Headline */

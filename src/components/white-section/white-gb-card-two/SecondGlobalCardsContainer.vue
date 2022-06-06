@@ -23,4 +23,6 @@ export default {
 #second-global-cards-container {
   width: 1024px;
 }
+
+
 </style>

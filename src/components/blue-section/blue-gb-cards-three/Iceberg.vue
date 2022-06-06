@@ -14,10 +14,10 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #iceberg {
     position: absolute;
-    margin: -184px;
-    z-index: -1;
+    margin: -80px;
+    z-index: 15;
 }
 </style>
