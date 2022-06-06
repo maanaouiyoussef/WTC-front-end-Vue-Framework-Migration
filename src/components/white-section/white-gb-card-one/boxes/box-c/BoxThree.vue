@@ -9,10 +9,45 @@
 </template>
 
 <script>
+import Chart from 'chart.js/auto'
 export default {
     name: 'BoxThree',
     components: {
 
+    },
+    mounted() {
+        const prodKey = document.getElementById('prodkey-qa-chart')
+        const pkData = {
+            labels: [],
+            datasets: [
+                {
+                    label: "My First Dataset",
+                    data: [300, 100],
+                    backgroundColor: ["#55D8FE", "#0946EC"],
+                    hoverOffset: 4,
+                },
+                {
+                    label: "My First Dataset",
+                    data: [300, 100],
+                    backgroundColor: ["#55D8FE", "#D72D4E"],
+                    hoverOffset: 4,
+                },
+            ],
+        };
+
+        const pkConfig = {
+            type: "doughnut",
+            data: pkData,
+        };
+
+        const pkChart = new Chart(prodKey, pkConfig, {
+            title: {
+                text: "Doughnut Chart",
+                verticalAlign: "center",
+                dockInsidePlotArea: true
+            }
+        });
+        pkChart;
     }
 }
 </script>

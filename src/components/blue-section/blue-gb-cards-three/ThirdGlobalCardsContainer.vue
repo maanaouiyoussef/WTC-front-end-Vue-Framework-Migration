@@ -6,6 +6,7 @@
         </div> -->
 
         <div class="row g-4">
+            <Iceberg />
             <BoxOne />
             <BoxTwo />
             <BoxThree />
@@ -19,13 +20,15 @@ import BoxOne from './boxes/box-a/BoxOne.vue';
 import BoxTwo from './boxes/box-b/BoxTwo.vue';
 import BoxThree from './boxes/box-c/BoxThree.vue';
 import BoxFour from './boxes/box-d/BoxFour.vue';
+import Iceberg from './Iceberg.vue';
 export default {
     name: 'ThirdGlobalCardsContainer',
     components: {
     BoxOne,
     BoxTwo,
     BoxThree,
-    BoxFour
+    BoxFour,
+    Iceberg
 }
 }
 </script>

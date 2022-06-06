@@ -20,9 +20,6 @@ export default {
 </script>
 
 <style>
-#app {
- 
-}
 
 .dash-card {
   font-size: 11px;
