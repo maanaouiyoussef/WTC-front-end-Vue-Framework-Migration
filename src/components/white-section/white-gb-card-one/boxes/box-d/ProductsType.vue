@@ -19,6 +19,11 @@ export default {
     name: 'ProductsType',
     components: {
 
+    }, 
+    data() {
+        return {
+            
+        }
     }
 }
 </script>

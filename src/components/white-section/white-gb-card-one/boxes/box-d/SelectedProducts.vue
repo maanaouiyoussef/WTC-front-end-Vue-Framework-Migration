@@ -1,7 +1,7 @@
 <template>
     <div class="col-md-6">
         <span>Selected Products</span>
-        <div id="products-count">353.61K</div>
+        <div id="products-count">{{ productsCount }}</div>
     </div>
 </template>
 
@@ -10,6 +10,11 @@ export default {
     name: 'SelectedProducts',
     components: {
 
+    },
+    data() {
+        return {
+            productsCount: 355.61,
+        }
     }
 }
 </script>
